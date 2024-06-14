@@ -7,10 +7,11 @@ import Education from '../Components/education/education';
 import Projects from '../Components/projects/projects';
 import Skills from '../Components/skills/skills';
 import Works from '../Components/works/works';
+import Codingprofile from '../Components/codingprofile/codingprofile';
 
 function HomePage(){
     return (
-        <main className="bg-[#101630] h-[900vh] pt-6">
+        <main className="bg-[#101630] h-[1000vh] pt-6">
 
         <Navbar />
         <Hero />
@@ -19,6 +20,7 @@ function HomePage(){
         <Projects />
         <Skills />
         <Works />
+        <Codingprofile />
         </main>
     )
 };
