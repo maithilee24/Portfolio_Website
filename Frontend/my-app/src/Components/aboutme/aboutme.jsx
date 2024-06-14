@@ -10,7 +10,7 @@ const Aboutme=()=>{
                 <div className=" relative w-1/2 flex justify-center items-center">
                     <div className=" absolute -top-[5.5rem] right-24"><img src={V1} alt=""></img></div>
                     <div className="bg-[#D9D9D9] absolute w-[55%] h-96 -top-16 rounded-xl z-20"><img src={Profile} alt="" className="w-full h-full rounded-xl object-cover"></img></div>
-                    <div className="bg-[#101630] absolute border-[8px] border-[#4EB8DC] w-[55%] h-96 rounded-xl z-0 right-[5.5rem] -bottom-3"></div>
+                    <div className="bg-[#101630] absolute border-[8px] border-[#4EB8DC] w-[55%] h-96 rounded-xl z-0 right-[6.5rem] -bottom-1.5"></div>
                 </div>
                 <div className="flex flex-col w-1/2 ">
                     <div className="text-white text-3xl font-medium mb-6">ABOUT ME</div>
