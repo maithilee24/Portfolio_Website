@@ -35,7 +35,7 @@ function Works (){
         <div className="flex flex-col mt-6 justify-center items-center">
             <div className="flex justify-center items-center">
                 <div><img src={Star} alt=""></img></div>
-                <div className="text-white text-3xl mx-2 font-medium">PROJECTS</div>
+                <div className="text-white text-3xl mx-2 font-medium">WORKS</div>
                 <div><img src={Star} alt=""></img></div>
             </div>
             <div className="text-white italic font-extralight mt-6 text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>

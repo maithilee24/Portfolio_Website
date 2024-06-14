@@ -8,6 +8,7 @@ import Projects from '../Components/projects/projects';
 import Skills from '../Components/skills/skills';
 import Works from '../Components/works/works';
 import Codingprofile from '../Components/codingprofile/codingprofile';
+import Contact from '../Components/contact/contact';
 
 function HomePage(){
     return (
@@ -21,6 +22,7 @@ function HomePage(){
         <Skills />
         <Works />
         <Codingprofile />
+        <Contact />
         </main>
     )
 };

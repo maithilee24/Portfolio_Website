@@ -6,7 +6,7 @@ const Navbar=()=>{
     const location = useLocation();
     const linkStyles = "text-white text-base";
     const activeLinkStyles = "text-[#4EB8DC]";
-    return <nav className="flex flex-row fixed z-30">
+    return <nav className="flex flex-row z-30">
         <div className="ml-24">
             <img src={Logo} alt=""></img>
         </div>
