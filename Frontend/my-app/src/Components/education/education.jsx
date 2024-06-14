@@ -31,9 +31,9 @@ function Education(){
     return(
         <div className="flex flex-col mt-6 justify-center items-center">
             <div className="flex justify-center items-center">
-                <div><img src={Star}></img></div>
+                <div><img src={Star} alt=""></img></div>
                 <div className="text-white text-3xl mx-2 font-medium">EDUCATION</div>
-                <div><img src={Star}></img></div>
+                <div><img src={Star} alt=""></img></div>
             </div>
             <div className="mt-10">
                 {eduInfo.map((items) => (
