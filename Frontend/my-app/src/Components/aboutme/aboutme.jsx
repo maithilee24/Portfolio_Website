@@ -1,6 +1,6 @@
 import React from "react";
 import V1 from "./V1.png";
-import V2 from "./V2.png";
+import V2 from "../assets/V2.png";
 import Profile from "./Profile.png"
 
 const Aboutme=()=>{
@@ -18,7 +18,7 @@ const Aboutme=()=>{
                     <div className="bg-gradient-to-r from-[#559BD8] to-[#4933C2] rounded-lg p-4 h-14 w-32 flex justify-center items-center text-white font-medium">RESUME</div>
                 </div>
             </div>
-            <div className="flex justify-center items-center mt-24">
+            <div className="flex justify-center items-center mt-20">
                 <img src={V2} alt=""></img>
             </div>
         </div>
