@@ -6,6 +6,7 @@ import Aboutme from '../Components/aboutme/aboutme';
 import Education from '../Components/education/education';
 import Projects from '../Components/projects/projects';
 import Skills from '../Components/skills/skills';
+import Works from '../Components/works/works';
 
 function HomePage(){
     return (
@@ -17,6 +18,7 @@ function HomePage(){
         <Education />
         <Projects />
         <Skills />
+        <Works />
         </main>
     )
 };
