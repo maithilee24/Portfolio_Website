@@ -44,10 +44,22 @@ function Contact(){
             </div>
             <div className="flex flex-col relative">
                 <div className="flex flex-row z-20 absolute left-40 top-10">
-                    <div className="bg-[#4933C2] w-16 h-16 rounded-xl mx-3"><img src={Linkedln} className="object-cover w-full h-full rounded-xl"></img></div>
-                    <div className="bg-[#4933C2] w-16 h-16 rounded-xl mx-3"><img src={Github} className="object-cover w-full h-full rounded-xl bg-[#4933C2]"></img></div>
-                    <div className="bg-[#4933C2] w-16 h-16 rounded-xl mx-3"><img src={Discord} className="object-cover w-full h-full rounded-xl"></img></div>
-                    <div className="bg-[#4933C2] w-16 h-16 rounded-xl mx-3"><img src={Instagram} className="object-cover w-full h-full rounded-xl"></img></div>
+                    <div className="bg-[#4933C2] w-16 h-16 rounded-xl mx-3">
+                    <a href="https://www.linkedin.com/in/maithilee-pardhi-2a6947256" target="_blank" rel="noopener noreferrer">
+                    <img src={Linkedln} className="object-cover w-full h-full rounded-xl px-3 py-3"></img></a>
+                    </div>
+                    <div className="bg-[#4933C2] w-16 h-16 rounded-xl mx-3">
+                    <a href="https://github.com/maithilee24" target="_blank" rel="noopener noreferrer">
+                    <img src={Github} className="object-cover w-full h-full rounded-xl bg-[#4933C2] px-3 py-3"></img></a>
+                    </div>
+                    <div className="bg-[#4933C2] w-16 h-16 rounded-xl mx-3">
+                    <a href="https://discord.com/channels/maithilee_pardhi" target="_blank" rel="noopener noreferrer">
+                    <img src={Discord} className="object-cover w-full h-full rounded-xl px-3 py-3"></img></a>
+                    </div>
+                    <div className="bg-[#4933C2] w-16 h-16 rounded-xl mx-3">
+                    <a href="https://www.instagram.com/maithilee_pardhi?igsh=Z3NndnhtM3hqMHU5" target="_blank" rel="noopener noreferrer">
+                    <img src={Instagram} className="object-cover w-full h-full rounded-xl px-3 py-3"></img></a>
+                    </div>
                 </div>
                 <div className="absolute z-0 top-0"><img src={V2} alt=""></img></div>
             </div>

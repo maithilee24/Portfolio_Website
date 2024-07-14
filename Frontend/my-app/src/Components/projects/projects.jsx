@@ -2,21 +2,25 @@ import React from "react";
 import Star from "../assets/Star.png";
 import V2 from "../assets/V2.png";
 import ProjectList from "./projectlist";
+import Portfolio from "../images/Portfolio.png";
+import Work from "../images/Work.png";
 
 const proInfo = [
     {
         key: 1,
         no: 1,
         title :"Portfolio",
-        discription :"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        link : ""
+        image:Portfolio,
+        discription :"This is the portfolio website built with React.js and styled using Tailwind CSS, it reflects my proficiency in creating sleek, responsive, and user-friendly web applications. The website serves as a comprehensive showcase of my skills, projects, and experiences.",
+        link : "https://github.com/maithilee24/Portfolio_Website"
     },
     {
         key: 2,
         no: 2,
-        title :"Portfolio",
-        discription :"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        link : ""
+        image:Work,
+        title :"DesCo Club Website",
+        discription :"As a frontend developer for the Desco Club's official website, I contributed to showcasing the works and skills of our design-focused members. I developed the 'Get in Touch' section and the 'Works' page using React.js and Tailwind CSS, with Firebase for dynamic content management. This project allowed me to collaborate effectively with my team and enhance my skills in creating responsive, modern web applications.",
+        link : "https://github.com/maithilee24/club-website"
     },
 ];
 
@@ -34,6 +38,7 @@ function Projects (){
                         key={items.key}
                         title={items.title}
                         no={items.no}
+                        image={items.image}
                         discription={items.discription}
                         link={items.link}
                     />
