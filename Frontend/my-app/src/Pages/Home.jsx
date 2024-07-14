@@ -12,7 +12,7 @@ import Contact from '../Components/contact/contact';
 
 function HomePage(){
     return (
-        <main className="bg-[#101630] h-[1000vh] pt-6">
+        <main className="bg-[#101630] h-[850vh] pt-6">
 
         <Navbar />
         <Hero />

@@ -2,7 +2,11 @@ import React from "react";
 import V1 from "./v1.png";
 import V2 from "./V2.png";
 import Card from "./card";
-import Star from "./Star.png"
+import Star from "./Star.png";
+import Instagram from "../images/Instagram.jpg";
+import Github from "../images/Github.png";
+import Discord from "../images/Discord.jpg";
+import Linkedln from "../images/Linkedln1.jpg";
 
 function Contact(){
     return (
@@ -15,12 +19,12 @@ function Contact(){
             <div className="flex flex-row mx-40 mt-20">
                 <div className="flex flex-col w-1/2">
                         <div className="text-white text-3xl font-medium mb-3">DON'T BE SHY!</div>
-                        <div className="text-white text-[0.95rem] font-light italic mr-16 mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+                        <div className="text-white text-[0.95rem] font-light italic mr-16 mb-3">"Let's make something great together! Contact me for collaborations, freelance opportunities, or any inquiries about my work. I'm looking forward to hearing from you."</div>
                         <div className="flex flex-row">
                             <div></div>
                             <div className="flex flex-col">
                                 <div className="text-white font-medium">MAIL ME</div>
-                                <div className="text-white">maithilipardhi12gmail.com</div>
+                                <div className="text-white">maithilee948@gmail.com</div>
                             </div>
                         </div>
                         <div className="flex flex-row">
@@ -40,10 +44,10 @@ function Contact(){
             </div>
             <div className="flex flex-col relative">
                 <div className="flex flex-row z-20 absolute left-40 top-10">
-                    <div className="bg-[#4933C2] w-16 h-16 rounded-xl mx-3"></div>
-                    <div className="bg-[#4933C2] w-16 h-16 rounded-xl mx-3"></div>
-                    <div className="bg-[#4933C2] w-16 h-16 rounded-xl mx-3"></div>
-                    <div className="bg-[#4933C2] w-16 h-16 rounded-xl mx-3"></div>
+                    <div className="bg-[#4933C2] w-16 h-16 rounded-xl mx-3"><img src={Linkedln} className="object-cover w-full h-full rounded-xl"></img></div>
+                    <div className="bg-[#4933C2] w-16 h-16 rounded-xl mx-3"><img src={Github} className="object-cover w-full h-full rounded-xl"></img></div>
+                    <div className="bg-[#4933C2] w-16 h-16 rounded-xl mx-3"><img src={Discord} className="object-cover w-full h-full rounded-xl"></img></div>
+                    <div className="bg-[#4933C2] w-16 h-16 rounded-xl mx-3"><img src={Instagram} className="object-cover w-full h-full rounded-xl"></img></div>
                 </div>
                 <div className="absolute z-0 top-0"><img src={V2} alt=""></img></div>
             </div>

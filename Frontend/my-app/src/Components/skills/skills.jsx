@@ -27,17 +27,17 @@ const skillInfo = [
     {
         key:5,
         title: "Coursework",
-        skill: ["Data Structures Algorithm","Object Oriented Programming"]
+        skill: ["Data Structures Algorithm","Object Oriented Programming","Database Management System","Operating System"]
     },
     {
         key:6,
         title: "Tools",
-        skill: ["Postman", "VS Code", "GitHub","GIT","Figma","MATLAB","Photoshop"]
+        skill: ["VS Code", "GitHub","GIT","Figma","MATLAB","Photoshop"]
     },
     {
         key:7,
         title: "Areas of Interest",
-        skill: ["Web Development","Designing"]
+        skill: ["Web Development","Designing","Competitive Programming"]
     }
 ]
 
