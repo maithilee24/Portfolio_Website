@@ -3,10 +3,10 @@ import V1 from "./v1.png";
 import V2 from "./V2.png";
 import Card from "./card";
 import Star from "./Star.png";
-import Instagram from "../images/Instagram.jpg";
+import Instagram from "../images/Instagram.png";
 import Github from "../images/Github.png";
-import Discord from "../images/Discord.jpg";
-import Linkedln from "../images/Linkedln1.jpg";
+import Discord from "../images/Discord.png";
+import Linkedln from "../images/Linkedln.png";
 
 function Contact(){
     return (
@@ -45,7 +45,7 @@ function Contact(){
             <div className="flex flex-col relative">
                 <div className="flex flex-row z-20 absolute left-40 top-10">
                     <div className="bg-[#4933C2] w-16 h-16 rounded-xl mx-3"><img src={Linkedln} className="object-cover w-full h-full rounded-xl"></img></div>
-                    <div className="bg-[#4933C2] w-16 h-16 rounded-xl mx-3"><img src={Github} className="object-cover w-full h-full rounded-xl"></img></div>
+                    <div className="bg-[#4933C2] w-16 h-16 rounded-xl mx-3"><img src={Github} className="object-cover w-full h-full rounded-xl bg-[#4933C2]"></img></div>
                     <div className="bg-[#4933C2] w-16 h-16 rounded-xl mx-3"><img src={Discord} className="object-cover w-full h-full rounded-xl"></img></div>
                     <div className="bg-[#4933C2] w-16 h-16 rounded-xl mx-3"><img src={Instagram} className="object-cover w-full h-full rounded-xl"></img></div>
                 </div>
