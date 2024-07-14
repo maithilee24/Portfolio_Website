@@ -12,19 +12,34 @@ import Contact from '../Components/contact/contact';
 
 function HomePage(){
     return (
-        <main className="bg-[#101630] h-[850vh] pt-6">
-
-        <Navbar />
-        <Hero />
-        <Aboutme />
-        <Education />
-        <Projects />
-        <Skills />
-        <Works />
-        <Codingprofile />
-        <Contact />
+        <main className="bg-[#101630] pt-6">
+            <Navbar />
+            <div id="home">
+                <Hero />
+            </div>
+            <div id="aboutme">
+                <Aboutme />
+            </div>
+            <div id="education">
+                <Education />
+            </div>
+            <div id="projects">
+                <Projects />
+            </div>
+            <div id="skills">
+                <Skills />
+            </div>
+            <div id="works">
+                <Works />
+            </div>
+            <div id="codingprofile">
+                <Codingprofile />
+            </div>
+            <div id="contact">
+                <Contact />
+            </div>
         </main>
-    )
-};
+    );
+}
 
 export default HomePage;

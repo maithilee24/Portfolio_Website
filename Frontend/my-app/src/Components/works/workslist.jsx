@@ -1,8 +1,8 @@
 import React from "react";
 
-function WorkList({ image }) {
+function WorkList({ image, onClick }) {
     return (
-        <div className="w-[18.2rem] h-[18.2rem] mr-6 bg-gradient-to-r from-[#559BD8] to-[#4933C2] flex justify-center items-center">
+        <div className="w-[18.2rem] h-[18.2rem] mr-6 bg-gradient-to-r from-[#559BD8] to-[#4933C2] flex justify-center items-center cursor-pointer" onClick={onClick}>
             <div className="w-72 h-72 bg-[#101630]">
                 <img src={image} alt="" className="object-cover w-full h-full" />
             </div>
@@ -11,3 +11,5 @@ function WorkList({ image }) {
 }
 
 export default WorkList;
+
+

@@ -1,7 +1,7 @@
 import React from "react";
 import V1 from "./V1.png";
 import V2 from "../assets/V2.png";
-import Profile from "./Profile.png";
+import Profile from "./Profile.jpg";
 
 const Aboutme = () => {
     return (
