@@ -28,11 +28,11 @@ function Projects (){
     return (
         <div className="flex flex-col mt-6 justify-center items-center">
             <div className="flex justify-center items-center">
-                <div><img src={Star} alt=""></img></div>
-                <div className="text-white text-3xl mx-2 font-medium">PROJECTS</div>
-                <div><img src={Star} alt=""></img></div>
+                <div><img src={Star} alt="" className="h-8 sm:h-auto"></img></div>
+                <div className="text-white text-xl sm:text-2xl lg:text-3xl mx-2 font-medium">PROJECTS</div>
+                <div><img src={Star} alt="" className="h-8 sm:h-auto"></img></div>
             </div>
-            <div className="mt-16 mx-52">
+            <div className=" mt-10 sm:mt-16 mx-10 sm:mx-16 md:mx-24 lg:mx-36 xl:mx-44">
                 {proInfo.map((items) => (
                     <ProjectList
                         key={items.key}
@@ -45,7 +45,7 @@ function Projects (){
                 ))}
             </div>
             <div>
-                <img src={V2} alt=""></img>
+                <img src={V2} alt="" className="w-20 sm:w-auto"></img>
             </div>
         </div>
     )
