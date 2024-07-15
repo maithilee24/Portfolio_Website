@@ -43,9 +43,9 @@ function Works() {
     return (
         <div className="flex flex-col mt-6 justify-center items-center">
             <div className="flex justify-center items-center">
-                <div><img src={Star} alt="" className="h-8 sm:h-auto"></img></div>
+                <div><img src={Star} alt="" className="h-8 sm:h-auto" /></div>
                 <div className="text-white text-xl sm:text-2xl lg:text-3xl mx-2 font-medium">WORKS</div>
-                <div><img src={Star} alt="" className="h-8 sm:h-auto"></img></div>
+                <div><img src={Star} alt="" className="h-8 sm:h-auto" /></div>
             </div>
             <div className="text-white italic font-extralight mt-6 flex text-sm sm:text-base justify-center items-center">"Where Creativity Meets Execution"</div>
             <div className="mt-10 lg:mx-36 xl:mx-40 flex flex-col justify-center items-center">
@@ -61,11 +61,11 @@ function Works() {
                 </div>
             </div>
             <div className="mt-6">
-                <img src={V2} alt="" className="w-20 sm:w-auto"></img>
+                <img src={V2} alt="" className="w-20 sm:w-auto" />
             </div>
             {selectedImage && <Modal image={selectedImage} onClose={() => setSelectedImage(null)} />}
         </div>
-    )
+    );
 }
 
 export default Works;

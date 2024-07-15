@@ -10,7 +10,7 @@ import Linkedln from "../images/Linkedln.png";
 
 function Contact(){
     return (
-        <div className="flex flex-col h-[250vh] sm:h-[170vh] md:h-[190vh] lg:h-[200vh] xl:h-[210vh] mt-8 bg-gradient-to-r from-[#4A39C3] to-[#509AD7] rounded-t-[4rem] sm:rounded-t-[10rem]  lg:rounded-t-[12rem]">
+        <div className="flex flex-col h-[250vh] sm:h-[170vh] md:h-[190vh] lg:h-[200vh] xl:h-[205vh] mt-8 bg-gradient-to-r from-[#4A39C3] to-[#509AD7] rounded-t-[4rem] sm:rounded-t-[10rem]  lg:rounded-t-[12rem]">
             <div className="flex justify-center items-center mt-4 sm:mt-6 md:mt-10">
                 <div><img src={Star} alt="" className="h-8 sm:h-auto"></img></div>
                 <div className="text-white text-xl sm:text-2xl lg:text-3xl mx-2 font-medium">CONTACT</div>
