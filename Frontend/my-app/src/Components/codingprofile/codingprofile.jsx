@@ -38,12 +38,12 @@ function Codingprofile (){
     return (
         <div className="flex flex-col mt-6 justify-center items-center">
             <div className="flex justify-center items-center">
-                <div><img src={Star} alt=""></img></div>
-                <div className="text-white text-3xl mx-2 font-medium">CODING PROFILE</div>
-                <div><img src={Star} alt=""></img></div>
+                <div><img src={Star} alt="" className="h-8 sm:h-auto"></img></div>
+                <div className="text-white text-xl sm:text-2xl lg:text-3xl mx-2 font-medium">CODING PROFILE</div>
+                <div><img src={Star} alt="" className="h-8 sm:h-auto"></img></div>
             </div>
             <div className="mt-10 mx-40 flex flex-col">
-                <div className="flex flex-row justify-center mb-4 space-x-40">
+                <div className="flex flex-col sm:flex-row justify-center mb-4 sm:space-x-20 md:space-x-28 lg:space-x-40">
                     {codingpInfo.slice(0, 2).map((item) => (
                         <CPItems 
                             key={item.key} 
@@ -53,7 +53,7 @@ function Codingprofile (){
                             />
                     ))}
                 </div>
-                <div className="flex flex-row justify-center mt-4 space-x-40">
+                <div className="flex flex-col sm:flex-row justify-center  sm:space-x-20 md:space-x-28 lg:space-x-40">
                     {codingpInfo.slice(2, 4).map((item) => (
                         <CPItems 
                             key={item.key}
@@ -65,7 +65,7 @@ function Codingprofile (){
                 </div>
             </div>
             <div className="mt-6">
-                <img src={V2} alt=""></img>
+                <img src={V2} alt="" className="w-20 sm:w-auto"></img>
             </div>
         </div>
     )
