@@ -43,25 +43,25 @@ function Works() {
     return (
         <div className="flex flex-col mt-6 justify-center items-center">
             <div className="flex justify-center items-center">
-                <div><img src={Star} alt=""></img></div>
-                <div className="text-white text-3xl mx-2 font-medium">WORKS</div>
-                <div><img src={Star} alt=""></img></div>
+                <div><img src={Star} alt="" className="h-8 sm:h-auto"></img></div>
+                <div className="text-white text-xl sm:text-2xl lg:text-3xl mx-2 font-medium">WORKS</div>
+                <div><img src={Star} alt="" className="h-8 sm:h-auto"></img></div>
             </div>
-            <div className="text-white italic font-extralight mt-6 text-base">"Where Creativity Meets Execution"</div>
-            <div className="mt-10 mx-40 flex flex-col">
-                <div className="flex flex-row justify-center mb-4">
+            <div className="text-white italic font-extralight mt-6 flex text-sm sm:text-base justify-center items-center">"Where Creativity Meets Execution"</div>
+            <div className="mt-10 lg:mx-36 xl:mx-40 flex flex-col justify-center items-center">
+                <div className="flex flex-col sm:flex-row justify-center sm:mb-4">
                     {imageInfo.slice(0, 3).map((item) => (
                         <WorkList key={item.key} image={item.imageurl} onClick={() => setSelectedImage(item.imageurl)} />
                     ))}
                 </div>
-                <div className="flex flex-row justify-center mt-4">
+                <div className="flex flex-col sm:flex-row justify-center sm:mt-4">
                     {imageInfo.slice(3, 6).map((item) => (
                         <WorkList key={item.key} image={item.imageurl} onClick={() => setSelectedImage(item.imageurl)} />
                     ))}
                 </div>
             </div>
             <div className="mt-6">
-                <img src={V2} alt=""></img>
+                <img src={V2} alt="" className="w-20 sm:w-auto"></img>
             </div>
             {selectedImage && <Modal image={selectedImage} onClose={() => setSelectedImage(null)} />}
         </div>
