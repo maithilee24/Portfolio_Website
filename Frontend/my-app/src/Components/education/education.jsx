@@ -31,11 +31,11 @@ function Education(){
     return(
         <div className="flex flex-col mt-6 justify-center items-center">
             <div className="flex justify-center items-center">
-                <div><img src={Star} alt=""></img></div>
-                <div className="text-white text-3xl mx-2 font-medium">EDUCATION</div>
-                <div><img src={Star} alt=""></img></div>
+                <div><img src={Star} alt="" className="h-8 sm:h-auto"></img></div>
+                <div className="text-white text-xl sm:text-2xl lg:text-3xl mx-2 font-medium">EDUCATION</div>
+                <div><img src={Star} alt="" className="h-8 sm:h-auto"></img></div>
             </div>
-            <div className="mt-10">
+            <div className="mt-10 mx-8 sm:mx-20">
                 {eduInfo.map((items) => (
                     <List 
                         key={items.key}
@@ -47,7 +47,7 @@ function Education(){
                 ))}
             </div>
             <div>
-                <img src={V2} alt=""></img>
+                <img src={V2} alt="" className="w-20 sm:w-auto"></img>
             </div>
         </div>
     )

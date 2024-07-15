@@ -22,7 +22,7 @@ const Aboutme = () => {
                         I'm Maithilee Pardhi, currently a third-year student at National Institute of Technology Patna, majoring in Electronics and Communication Engineering. My passion lies in design, web development, and problem-solving through competitive programming. I thrive on the creativity and technical challenges that these fields present, constantly seeking opportunities to learn and grow. Whether it's crafting intuitive user interfaces, developing dynamic web applications, or tackling complex coding problems, I am always eager to take on new challenges and push my boundaries.
                     </div>
                     <a href="https://drive.google.com/drive/folders/1SQMC2Ph8AJDQLpg9kUhVE3aHWXwKESwD?usp=sharing" target="_blank" rel="noopener noreferrer">
-                        <div className="bg-gradient-to-r from-[#559BD8] to-[#4933C2] rounded-lg text-[0.7rem] md:text-auto sm:mx-0 p-3 md:p-4 h-4 w-20 sm:h-2 sm:w-20 md:h-8 md:w-24 lg:h-10 lg:w-28 xl:h-14 xl:w-32 flex justify-center items-center text-white font-normal lg:font-medium">
+                        <div className="bg-gradient-to-r from-[#559BD8] to-[#4933C2] rounded-lg text-[0.7rem] md:text-base sm:mx-0 p-3 md:p-4 h-4 w-20 sm:h-2 sm:w-20 md:h-8 md:w-24 lg:h-10 lg:w-28 xl:h-14 xl:w-32 flex justify-center items-center text-white font-normal lg:font-medium">
                             RESUME
                         </div>
                     </a>
