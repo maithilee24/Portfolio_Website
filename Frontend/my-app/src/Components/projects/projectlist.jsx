@@ -16,7 +16,7 @@ function ProjectList({ no, title, discription, link,image }) {
                     <div className="flex flex-col sm:w-1/2">
                         <div className="text-[#4EB8DC] text-[1.1rem] md:text-[1.3rem] lg:text-[1.7rem] mb-2">PROJECT {no}</div>
                         <div className="text-white text-[1.1rem] md:text-[1.3rem] lg:text-[1.7rem] font-medium mb-2">{title}</div>
-                        <div className="text-white font-light text-sm md:text-base lg:text-lg mb-7 sm:mb-10">{discription}</div>
+                        <div className="text-white font-light text-[0.8rem] md:text-base lg:text-lg mb-7 sm:mb-10">{discription}</div>
                         <Link to={link}>
                             <div className="flex flex-row justify-center items-center relative">
                                 <div className="text-white absolute left-0 text-base sm:text-lg">Github link</div>
@@ -30,7 +30,7 @@ function ProjectList({ no, title, discription, link,image }) {
                     <div className="flex flex-col sm:w-1/2">
                         <div className="text-[#4EB8DC] text-[1.1rem] md:text-[1.3rem] lg:text-[1.7rem] mb-2">PROJECT {no}</div>
                         <div className="text-white text-[1.1rem] md:text-[1.3rem] lg:text-[1.7rem] font-medium mb-2">{title}</div>
-                        <div className="text-white font-light text-sm md:text-base lg:text-lg mb-7 sm:mb-10">{discription}</div>
+                        <div className="text-white font-light text-[0.8rem] md:text-base lg:text-lg mb-7 sm:mb-10">{discription}</div>
                         <Link to={link}>
                             <div className="flex flex-row justify-center items-center relative">
                                 <div className="text-white absolute left-0 text-base sm:text-lg">Github link</div>

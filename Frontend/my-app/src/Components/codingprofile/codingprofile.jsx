@@ -64,7 +64,7 @@ function Codingprofile (){
                     ))}
                 </div>
             </div>
-            <div className="mt-6">
+            <div className="mt-0 sm:mt-6">
                 <img src={V2} alt="" className="w-20 sm:w-auto"></img>
             </div>
         </div>
