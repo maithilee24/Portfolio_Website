@@ -8,13 +8,13 @@ const Aboutme = () => {
         <div className="flex flex-col mt-[8rem] sm:mt-[14rem] md:mt-[16rem] lg:mt-[20rem] xl:mt-[24rem] justify-center items-center">
             <div className="flex flex-col mx-[12%] sm:flex-row sm:mx-12 md:mx-16 lg:mx-20 xl:mx-28 ">
                 <div className="relative sm:w-1/2 flex ">
-                    <div className="absolute sm:-top-6 sm:right-16 md:-top-6 md:right-20 lg:-top-10 lg:right-28 xl:-top-10 xl:right-40">
-                        <img src={V1} alt="" className=" h-10 lg:h-auto" />
+                    <div className="absolute -top-2 right-12 sm:-top-6 sm:right-16 md:-top-6 md:right-20 lg:-top-10 lg:right-28 xl:-top-10 xl:right-40">
+                        <img src={V1} alt="" className=" h-8 sm:h-10 lg:h-auto" />
                     </div>
-                    <div className="bg-[#D9D9D9] absolute sm:w-[70%] h-[16rem] sm:h-60 md:h-72 lg:h-80 xl:h-96 rounded-xl z-20">
+                    <div className="bg-[#D9D9D9] absolute w-[70%] h-[16rem] sm:h-60 md:h-72 lg:h-80 xl:h-96 rounded-xl z-20">
                         <img src={Profile} alt="" className="w-full h-full rounded-xl object-cover" />
                     </div>
-                    <div className="bg-[#101630] absolute border-[6px] sm:border-[8px] border-[#4EB8DC] h-[16rem] sm:h-60 md:h-72 lg:h-80 w-[192px] sm:w-[70%] xl:h-96 rounded-xl z-0 top-8 left-10 sm:top-8 sm:left-8 md:top-8 md:left-8 lg:top-10 lg:right-10 xl:top-8"></div>
+                    <div className="bg-[#101630] absolute border-[6px] sm:border-[8px] border-[#4EB8DC] h-[16rem] sm:h-60 md:h-72 lg:h-80 w-[192px] w-[70%] xl:h-96 rounded-xl z-0 top-8 left-10 sm:top-8 sm:left-8 md:top-8 md:left-8 lg:top-10 lg:right-10 xl:top-8"></div>
                 </div>
                 <div className="flex flex-col sm:w-1/2 mt-[20rem] sm:mt-0">
                     <div className="text-white text-sm sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-medium mb-3 sm:mb-4 xl:mb-6 px-0 sm:mx-0">ABOUT ME</div>
@@ -29,7 +29,7 @@ const Aboutme = () => {
                 </div>
             </div>
             <div className="flex justify-center items-center mt-6 sm:mt-12 md:mt-16 lg:mt-20 xl:mt-28">
-                <img src={V2} alt="" />
+                <img src={V2} alt="" className="w-20 sm:w-auto" />
             </div>
         </div>
     );
