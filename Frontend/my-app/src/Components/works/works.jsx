@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { motion } from "framer-motion";  // Import Framer Motion
 import Star from "../assets/Star.png";
 import V2 from "../assets/V2.png";
 import WorkList from "./workslist";
@@ -42,30 +43,66 @@ function Works() {
 
     return (
         <div className="flex flex-col mt-6 justify-center items-center">
+            {/* Title Section */}
             <div className="flex justify-center items-center">
                 <div><img src={Star} alt="" className="h-8 sm:h-auto" /></div>
                 <div className="text-white text-xl sm:text-2xl lg:text-3xl mx-2 font-medium">WORKS</div>
                 <div><img src={Star} alt="" className="h-8 sm:h-auto" /></div>
             </div>
+            {/* Description */}
             <div className="text-white italic font-extralight mt-6 flex text-sm sm:text-base justify-center items-center">"Where Creativity Meets Execution"</div>
-            <div className="mt-10 lg:mx-36 xl:mx-40 flex flex-col justify-center items-center">
+            
+            {/* Image Grid Section with Framer Motion Animation */}
+            <motion.div
+                className="mt-10 lg:mx-36 xl:mx-40 flex flex-col justify-center items-center"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.8 }}
+            >
                 <div className="flex flex-col sm:flex-row justify-center sm:mb-4">
                     {imageInfo.slice(0, 3).map((item) => (
-                        <WorkList key={item.key} image={item.imageurl} onClick={() => setSelectedImage(item.imageurl)} />
+                        <motion.div
+                            key={item.key}
+                            className="cursor-pointer"
+                            whileHover={{ scale: 1.1 }}  // Add hover animation to scale images
+                            onClick={() => setSelectedImage(item.imageurl)}
+                        >
+                            <WorkList image={item.imageurl} />
+                        </motion.div>
                     ))}
                 </div>
                 <div className="flex flex-col sm:flex-row justify-center sm:mt-4">
                     {imageInfo.slice(3, 6).map((item) => (
-                        <WorkList key={item.key} image={item.imageurl} onClick={() => setSelectedImage(item.imageurl)} />
+                        <motion.div
+                            key={item.key}
+                            className="cursor-pointer"
+                            whileHover={{ scale: 1.1 }}  // Add hover animation to scale images
+                            onClick={() => setSelectedImage(item.imageurl)}
+                        >
+                            <WorkList image={item.imageurl} />
+                        </motion.div>
                     ))}
                 </div>
-            </div>
+            </motion.div>
+            
+            {/* Footer Image */}
             <div className="mt-6">
                 <img src={V2} alt="" className="w-20 sm:w-auto" />
             </div>
-            {selectedImage && <Modal image={selectedImage} onClose={() => setSelectedImage(null)} />}
+            
+            {/* Modal for selected image with animation */}
+            {selectedImage && (
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ duration: 0.5 }}
+                >
+                    <Modal image={selectedImage} onClose={() => setSelectedImage(null)} />
+                </motion.div>
+            )}
         </div>
     );
 }
 
 export default Works;
+
