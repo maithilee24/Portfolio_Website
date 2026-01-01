@@ -13,25 +13,25 @@ const codingpInfo = [
         key:1,
         link:"https://codeforces.com/profile/Maithilee_Pardhi",
         imageurl:Codeforces,
-        detail:"Achieved a 1125 Rating on Codeforces: Newbie Level"
+        detail:"Achieved a 1190 Rating on Codeforces: Newbie Level"
     },
     {
         key:2,
         link:"https://www.codechef.com/users/yaadvi_04",
         imageurl:CodeChef,
-        detail:"CodeChef 2-Star Coder with a Rating of 1596"
+        detail:"CodeChef 3-Star Coder with a Rating of 1627"
     },
     {
         key:3,
         link:"https://leetcode.com/u/Maithilee_24/",
         imageurl:Leetcode,
-        detail:"Achieved a 1682 Rating on LeetCode"
+        detail:"Achieved a 1693 Rating on LeetCode"
     },
     {
         key:4,
         link:"https://www.geeksforgeeks.org/user/pardhiaqwd9/",
         imageurl:GfG,
-        detail:"Solved 131 questions on GeeksforGeeks"
+        detail:"Solved 150+ questions on GeeksforGeeks"
     },
 ]
 

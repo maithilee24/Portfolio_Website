@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Navbar from '../Components/navbar/navbar';
 import Hero from '../Components/herosection/hero';
 import Aboutme from '../Components/aboutme/aboutme';
@@ -8,57 +8,85 @@ import Skills from '../Components/skills/skills';
 import Works from '../Components/works/works';
 import Codingprofile from '../Components/codingprofile/codingprofile';
 import Contact from '../Components/contact/contact';
+import { motion } from 'framer-motion';
 
 function HomePage() {
-  useEffect(() => {
-    // Smooth scroll function to handle anchor scrolling
-    const links = document.querySelectorAll('a[href^="#"]');
-    links.forEach(link => {
-      link.addEventListener('click', function (e) {
-        e.preventDefault();
-        const targetId = this.getAttribute("href").substring(1);
-        const targetElement = document.getElementById(targetId);
-
-        if (targetElement) {
-          targetElement.scrollIntoView({
-            behavior: "smooth",
-            block: "start"
-          });
-        }
-      });
-    });
-  }, []);
-
   return (
     <main className="bg-[#101630] pt-6">
       <Navbar />
-      <div id="home">
+      
+      <motion.div 
+        id="home"
+        initial={{ opacity: 0 }} 
+        animate={{ opacity: 1 }} 
+        transition={{ duration: 1 }}
+      >
         <Hero />
-      </div>
-      <div id="aboutme">
+      </motion.div>
+      
+      <motion.div
+        id="aboutme"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
         <Aboutme />
-      </div>
-      <div id="education">
+      </motion.div>
+      
+      <motion.div
+        id="education"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
         <Education />
-      </div>
-      <div id="projects">
+      </motion.div>
+      
+      <motion.div
+        id="projects"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
         <Projects />
-      </div>
-      <div id="skills">
+      </motion.div>
+      
+      <motion.div
+        id="skills"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
         <Skills />
-      </div>
-      <div id="works">
+      </motion.div>
+      
+      <motion.div
+        id="works"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
         <Works />
-      </div>
-      <div id="codingprofile">
+      </motion.div>
+      
+      <motion.div
+        id="codingprofile"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
         <Codingprofile />
-      </div>
-      <div id="contact">
+      </motion.div>
+      
+      <motion.div
+        id="contact"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
         <Contact />
-      </div>
+      </motion.div>
     </main>
   );
 }
-
 export default HomePage;
-

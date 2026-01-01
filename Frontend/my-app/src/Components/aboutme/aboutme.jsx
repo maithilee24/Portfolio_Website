@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion"; // Importing motion
 import V1 from "./V1.png";
 import V2 from "../assets/V2.png";
-import Profile from "./Profile.jpg";
+import Profile from "./profile.jpg";
 
 const Aboutme = () => {
     return (

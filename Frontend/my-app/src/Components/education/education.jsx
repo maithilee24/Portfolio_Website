@@ -9,7 +9,7 @@ const eduInfo = [
         year:2026,
         title:"National Institute of technology , Patna",
         specification:"B.Tech in Electronics and Communication Engineering",
-        grade:"9.28/10 CGPA"
+        grade:"9.31/10 CGPA"
     },
     {
         key:2,
